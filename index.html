@@ -15,7 +15,12 @@
     .fussballde_widget {
       pointer-events: none;
       touch-action: pan-y;
-      margin-top: -200px;
+      margin-top: -200px; /* Desktop */
+    }
+    @media (max-width: 768px) {
+      .fussballde_widget {
+        margin-top: -400px; /* Mobil */
+      }
     }
   </style>
   <script 
