@@ -1,5 +1,5 @@
 # fussball-widget-Verein
-<!DOCTYPE html>
+
 <html>
 <head>
   <meta charset="UTF-8">
