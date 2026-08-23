@@ -1,27 +1,22 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
- <style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
     html, body {
       margin: 0;
       padding: 0;
       background: transparent;
-      overflow: hidden;
       touch-action: pan-y;
+      width: 100%;
     }
     .fussballde_widget {
       touch-action: pan-y;
-      margin-top: -200px; /* Desktop */
+      margin-top: 0; /* Negativen Margin entfernt */
+      width: 100%;
     }
-    @media (max-width: 768px) {
-      .fussballde_widget {
-        margin-top: -00px; /* Mobil */
-      }
-    }
-</style>
+  </style>
   <script 
     type="text/javascript" 
     src="https://www.fussball.de/widgets.js">
