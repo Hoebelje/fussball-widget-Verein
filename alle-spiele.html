@@ -1,1 +1,38 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+ <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      overflow: hidden;
+      touch-action: pan-y;
+    }
+    .fussballde_widget {
+      touch-action: pan-y;
+      margin-top: -200px; /* Desktop */
+    }
+    @media (max-width: 768px) {
+      .fussballde_widget {
+        margin-top: -300px; /* Mobil */
+      }
+    }
+</style>
+  <script 
+    type="text/javascript" 
+    src="https://www.fussball.de/widgets.js">
+  </script>
+</head>
+<body>
+  <div 
+    class="fussballde_widget"
+    data-id="3b627558-1c9a-4469-83bb-bcf7b9fb50fb"
+    data-type="club-matches"
+    style="width: 100%"
+  ></div>
+</body>
+</html>
